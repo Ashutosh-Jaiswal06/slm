@@ -84,55 +84,7 @@ Once upon a time, there was a big, red ball that could bounce very high...
 
 </details>
 
-## 🚀 Installation
 
-
-### 📦 Pip Installation
-
-```bash
-# clone project
-git clone https://github.com/VizuaraAI/nano-gpt-oss
-cd nano-gpt-oss
-
-# [OPTIONAL] create conda environment
-conda create -n myenv python=3.10
-conda activate myenv
-# Install requirements
-pip install -r requirements.txt
-</details>
-
-# install pytorch according to instructions
-# https://pytorch.org/get-started/
-# Install requirements
-pip install -r requirements.txt
-```
-
-
-## How to run Training
-
-The system will automatically detect and utilize available GPU resources. To train the GPT-OSS model, choose one of the following methods:
-
-### Option 1: Command Line Interface
-
-1. Navigate to the project directory:
-   ```bash
-   cd nano-gpt-oss
-   ```
-
-2. Start training with default configuration:
-   ```bash
-   python train.py
-   ```
-
-### Option 2: Jupyter Notebook
-
-1. Launch Jupyter from the project directory:
-   ```bash
-   jupyter notebook
-   ```
-
-2. Open `trains.ipynb`
-3. Run all cells sequentially using `Cell > Run All`
 
 ### Monitoring Training
 - Training progress and metrics will be displayed in the console
